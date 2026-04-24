@@ -1,6 +1,7 @@
 import asyncio
 import datetime
 import random
+import os
 
 from aiogram import Bot, Dispatcher, types, F
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton
