@@ -91,8 +91,9 @@ menu_kb = ReplyKeyboardMarkup(
 # ===== FSM =====
 class AddHabit(StatesGroup):
     name = State()
-     hour = State()
+    hour = State()
     minute = State()
+
 # ===== START =====
 @dp.message(Command("start"))
 async def start(message: types.Message):
